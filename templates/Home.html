@@ -1,0 +1,14 @@
+<html>
+    <head></head>
+    <body>
+    <h1>{{ title }}</h1>
+    <h2>Helm Chart Deployment Diagram</h2>
+    <p><img src="http://localhost:8000/blockdiag/svg/{{ blockdiag.to_kroki() }}" /></p>
+    <h2>Contents</h2>
+    <ul>
+        <li>pod1</li>
+        <li>pod2</li>
+        <li>pod3</li>
+    </ul>
+    </body>
+</html>
